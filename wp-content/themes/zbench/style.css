@@ -370,3 +370,62 @@ span#comments-addcomment a:hover{color:#4a630f;text-decoration:none;}
 @media screen and (max-width:400px) {
 	.entry pre{width:85%;}
 }
+
+/*********************************************/
+
+.app-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: -10px;
+	margin-bottom: 38px;
+}
+
+img.app-icon {
+	width: 92px;
+	height: 92px;
+	margin-left: 10px;
+}
+
+p.app-text {
+	margin: -4px 0 0 0;
+	padding-left: 30px;
+	padding-right: 40px;
+	font-size: 15px;
+	line-height: 23px;
+	text-align: justify;
+	color: #444;
+	text-shadow: 1px 1px 5px #ddd;
+}
+
+.app-text:hover {
+	opacity: 0.86;
+}
+
+.app-text:after {
+	content: '>>>';
+	margin-left: 25px;
+	color: #345;
+	font-style: italic;
+	letter-spacing: -2px;
+}
+
+#wrapper {
+	margin-top: 3px;
+	padding-bottom: 150px;
+}
+
+#sidebar-border {
+	margin-top: 36px;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

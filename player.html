@@ -1,11 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-<head profile="http://gmpg.org/xfn/11">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+	<meta charset=UTF-8"/>
 	<title>Rock Player | Rock!</title>
-	<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/zbench/style.css" />
-	<link rel="stylesheet" href="/wp-content/plugins/highslide-4-wordpress-reloaded/highslide.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" media="all" href="/wp-content/themes/zbench/style.css" />
+	<link rel="stylesheet" media="all" href="/wp-content/plugins/highslide-4-wordpress-reloaded/highslide.min.css" />
+	<script src="/wp-includes/js/util.js"></script>
 	<meta name="viewport" content="width=device-width" />
 	<!-- for mobile -->
 </head>
@@ -123,7 +124,7 @@
 					<div class="highslide-gallery">
 						<ul>
 							<li>
-								<a id="playerLibraryList" class="highslide" title="媒体库和创建播放列表" href="/files/RockPlayer/video/Rock-Player-Library-n-List.mp4">
+								<a id="playerPlayOperate" class="highslide" title="操作演示" href="/files/RockPlayer/video/Rock-Player-Demo.mp4">
 									<img src="/files/RockPlayer/video/video.png">
 								</a>
 							</li>
@@ -133,16 +134,14 @@
 								</a>
 							</li>
 							<li>
-								<a id="playerPlayOperate" class="highslide" title="播放操作" href="/files/RockPlayer/video/Rock-Player-Demo.mp4">
+								<a id="playerLibraryList" class="highslide" title="媒体库和创建播放列表" href="/files/RockPlayer/video/Rock-Player-Library-&-List.mp4">
 									<img src="/files/RockPlayer/video/video.png">
 								</a>
 							</li>
 						</ul>
 					</div>
 
-
-					<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js'></script>
-					<script type="text/javascript" src="/wp-includes/js/util.js"></script>
+					<script src="/wp-includes/js/jquery/jquery.js"></script>
 					<script>
 						jQuery(function() {
 							initialVideo("playerLibraryList");
@@ -150,7 +149,6 @@
 							initialVideo("playerPlayOperate");
 						});
 					</script>
-
 
 					<p>系统需求：</p>
 					<ul>
@@ -161,7 +159,7 @@
 					<ul>
 						<li><a href="/files/RockPlayer/Rock-Player.7z">本地下载</a></li>
 						<li><a href="http://bbs.bbercn.com/thread-79078-1-2.html">论坛下载</a></li>
-						<li><a href="http://www.bbota.cn/list-4959.html">OTA方式下载</a></li>
+						<li><a href="http://www.bbota.cn/list-4959.html">OTA 方式下载</a></li>
 						<li><a href="http://wenku.baidu.com/view/e33558f49e31433239689343.html">使用手册</a></li>
 					</ul>
 				</div>
@@ -211,7 +209,7 @@
 	<div id="footer">
 		<div id="footer-inside">
 			<p>
-				版权所有 &copy; 2016 Rock! | 站点由 <a href="http://zww.me">zBench</a> 和 <a href="http://wordpress.org/">WordPress</a> 驱动 </p>
+				版权所有 &copy; 2010-<script>document.write(new Date().getFullYear())</script> Rock! | 站点由 <a href="http://zww.me">zBench</a> 和 <a href="http://wordpress.org/">WordPress</a> 驱动 </p>
 			<span id="back-to-top">&uarr; <a href="#" rel="nofollow" title="Back to top">回到顶部</a></span>
 		</div>
 	</div>

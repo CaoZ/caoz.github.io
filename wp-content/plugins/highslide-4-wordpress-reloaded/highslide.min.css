@@ -17,7 +17,7 @@ a.highslide-credits:hover,a.highslide-credits:hover i{color:#FFF;background-colo
 .highslide-viewport{display:none;position:fixed;width:100%;height:100%;z-index:1;background:none;left:0;top:0}
 .closebutton{position:relative;top:-15px;left:15px;width:30px;height:30px;cursor:pointer;background:url(graphics/close.png)}
 .highslide-gallery ul{list-style-type:none;display:table;margin:0!important;padding:0}
-.highslide-gallery ul li{display:block;position:relative;float:left;line-height:0;overflow:hidden;width:auto;height:auto;background:none;border:1px solid #bebebe;box-shadow:0 0 4px rgba(160,160,160,100);-webkit-transition:200ms;-moz-transition:200ms;-o-transition:200ms;transition:200ms;margin:6px;padding:0}
+.highslide-gallery ul li{display:block;position:relative;float:left;line-height:0;overflow:hidden;width:auto;height:auto;background:none;border:1px solid #bebebe;box-shadow:0 0 4px #A0A0A064;-webkit-transition:200ms;-moz-transition:200ms;-o-transition:200ms;transition:200ms;margin:6px;padding:0}
 .highslide-gallery ul a{position:absolute;top:50%;left:50%}
 .highslide-gallery ul img{position:relative;top:-50%;left:-50%}
 html>/**/body .highslide-gallery ul li{display:table;text-align:center}
@@ -142,7 +142,7 @@ html>/**/body .highslide-gallery ul img{position:static}
 .highslide-thumbstrip-float .highslide-active-anchor img{border-color:#000}
 a.highslide img,a.highslide:hover img{border:none!important;margin:0!important;padding:0!important;max-width:100%!important}
 .highslide-gallery{background:#F8F8F8;border:1px solid #E8E8E8;border-radius:10px;text-align:center;margin:18px 5px!important;padding:18px}
-.highslide-gallery ul li:hover{box-shadow:0 0 7px rgba(0,0,0,200);-webkit-transition:200ms;-moz-transition:200ms;-o-transition:200ms;transition:200ms;border-color:#34adf7}
+.highslide-gallery ul li:hover{box-shadow:0 0 7px #000000C8;-webkit-transition:200ms;-moz-transition:200ms;-o-transition:200ms;transition:200ms;border-color:#34adf7}
 .highslide-thumbstrip-horizontal .highslide-scroll-up,.highslide-thumbstrip-horizontal .highslide-scroll-down{top:6px}
 .highslide-container > table,.highslide-thumbstrip-horizontal table,.highslide-thumbstrip-horizontal th,.highslide-thumbstrip-horizontal td{background:none!important;box-shadow:none!important;border:none!important}
 .highslide-video-container > .highslide-header{border:none!important}

@@ -385,6 +385,11 @@ img.app-icon {
 	width: 92px;
 	height: 92px;
 	margin-left: 10px;
+	filter: drop-shadow(0 0 5px #A0A0A064);
+}
+
+.app-item:hover .app-icon {
+	filter: drop-shadow(0 0 5px #555555A0);
 }
 
 p.app-text {
@@ -394,12 +399,17 @@ p.app-text {
 	font-size: 15px;
 	line-height: 23px;
 	text-align: justify;
-	color: #444;
-	text-shadow: 1px 1px 5px #ddd;
+	color: #494949;
+	text-shadow: 1px 1px 3px #CCC;
 }
 
-.app-text:hover {
-	opacity: 0.86;
+.app-item:hover .app-text {
+	color: #373737;
+	text-shadow: 1px 1px 3px #AAA;
+}
+
+.app-item *, .app-item *:hover {
+	transition: all 200ms;
 }
 
 .app-text:after {
